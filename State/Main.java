@@ -16,5 +16,8 @@ public class Main {
         
         // Intentar operación inválida
         pedido.cancelar();
+
+        Pedido otro = new Pedido();
+        otro.enviar(); 
     }
 }
